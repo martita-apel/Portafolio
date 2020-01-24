@@ -170,8 +170,14 @@ hr {
 }
 #design button {
   font-family: "Barlow", sans-serif;
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.popover {
+  color: #373a3c;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  text-align: center;
 }
 #design .card-title {
   margin: 0;
@@ -215,6 +221,10 @@ footer p {
   }
   .boton-popover {
     display: none;
+  }
+  #design button {
+    font-size: 70%;
+    letter-spacing: 1px;
   }
 }
 
