@@ -1,0 +1,225 @@
+body {
+  font-family: "Libre Baskerville", serif;
+  background: white;
+  text-align: left;
+}
+
+#navbarNav {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+nav .logo1 {
+  color: white;
+}
+
+header {
+  background-image: url("../img/yo.jpeg");
+  background-size: cover;
+  background-position: left;
+  padding-top: 100px;
+}
+.parrafo {
+  font-weight: 300;
+}
+
+.hero h1 {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 110px;
+}
+
+.bajada {
+  letter-spacing: 2px;
+}
+
+#botones {
+  display: inline-flex;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+.redes {
+  background: none;
+  border: 0;
+}
+#exampleModalLabel {
+  color: #373a3c;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding-left: 20px;
+}
+.modal-body {
+  color: #373a3c;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 40px;
+  padding-top: 20px;
+}
+.modal-content img {
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+#about {
+  text-align: center;
+}
+
+#about h3 {
+  margin-top: 80px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.bajada-titulo {
+  margin-bottom: 40px;
+  letter-spacing: 2.2px;
+}
+
+.iconos i {
+  font-size: 40pt;
+}
+
+.ic1 {
+  color: #02374c;
+}
+.ic2 {
+  color: #09684b;
+}
+.ic3 {
+  color: #22a055;
+}
+.ic4 {
+  color: #79db84;
+}
+
+.iconos h6 {
+  letter-spacing: 4px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+.iconos p {
+  letter-spacing: 1px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+#project {
+  text-align: center;
+  background-image: linear-gradient(
+    -225deg,
+    #7085b6 0%,
+    #87a7d9 50%,
+    #def3f8 100%
+  );
+}
+
+#project h3 {
+  padding-top: 60px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  color: white;
+}
+#project h6 {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  color: white;
+}
+.iconos i {
+  font-size: 40pt;
+}
+.card-deck {
+  padding-bottom: 80px;
+}
+#project .card {
+  text-align: left;
+  font-family: "Barlow", sans-serif;
+  border: 0;
+  margin: 20px;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.branding {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 2px;
+}
+hr {
+  margin: 1px;
+}
+
+#design h3 {
+  padding-top: 60px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-align: center;
+}
+#design h6 {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#design button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#design .card-title {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+#design .card-body {
+  display: flex;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.editoriales {
+  padding-bottom: 30px;
+  margin: 20px;
+}
+
+#photo {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  height: 900px;
+}
+
+footer {
+  height: 100px;
+  background: #373a3c;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .encabezado {
+    text-align: center;
+  }
+  #botones {
+    display: flex;
+    justify-content: center;
+  }
+  .boton-popover {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero h1 {
+    font-size: 65px;
+  }
+}

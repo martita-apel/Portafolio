@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+    <meta name="author" content="Martita Apel Acharán" />
+    <meta name="description" content="Mi portafolio de diseño" />
+    <meta name="keywords" content="portafolio, diseño, proyecto, editorial" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,600,800|Libre+Baskerville:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://embed.typeform.com/embed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: #66A9FF;"
+    >
+      <div class="container px-3">
+        <a class="navbar-brand" href="#">
+          <img class="logo1" src="assets/img/logo.svg" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Hola!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#design">Diseño Editorial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photo">Fotografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container-fluid hero text-light">
+      <div class="container encabezado">
+        <div class="row">
+          <h1 class="col-12">
+            Portafolio
+          </h1>
+          <p class="bajada col-12 col-lg-6">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTI ANDED OSDCIDC SDCNDSCJ, JSI CDS
+            JAO LOREM IPSUM CDSJCOIJ DOLOR DIS TAFR.
+          </p>
+          <p class="parrafo col-12 col-lg-8">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur juis fren det.
+          </p>
+        </div>
+        <div class="container mt-2" id="botones">
+          <button
+            type="button"
+            class="btn btn-outline-light boton-popover"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            Lee más!
+          </button>
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    LOREM IPSUM DOLOR SIT AMET
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </div>
+                <img src="assets/img/yo-2.jpeg" alt="Uyuni" />
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="redes" type="button" name="button">
+            <a
+              href="https://www.behance.net/"
+              class="btn btn-outline-light ml-2"
+              ><i class="fab fa-behance"></i
+            ></a>
+          </button>
+          <button class="redes" type="button" name="button">
+            <a href="https://www.pinterest.cl/" class="btn btn-outline-light"
+              ><i class="fab fa-pinterest-p"></i
+            ></a>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="container">
+      <h3 class="titulo text-align-center">ACERCA DE MÍ</h3>
+      <h6 class="bajada-titulo">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />sed do
+        eiusmod tempor incididunt labore et dolore magna aliqua.
+      </h6>
+      <div class="iconos row">
+        <div class="col-md-3">
+          <i class="fas fa-book ic1"></i>
+          <h6 class="mt-2">LIBROS</h6>
+          <p>Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-camera-retro ic2"></i>
+          <h6 class="mt-2">FOTOGRAFÍA</h6>
+          <p>Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-hiking ic3"></i>
+          <h6 class="mt-2">VIAJES</h6>
+          <p>Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fab fa-pagelines ic4"></i>
+          <h6 class="mt-2">NATURALEZA</h6>
+          <p>Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="container-fluid">
+      <h3 class="titulo text-align-center">EXPERIENCIA</h3>
+      <h6>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />sed do
+        eiusmod tempor incididunt labore et dolore magna aliqua.
+      </h6>
+      <div class="container">
+        <div class="card-deck row">
+          <div class="card">
+            <img src="assets/img/localex.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="branding">PACKAGING</p>
+              <h5 class="card-title">LOCALEX</h5>
+              <p class="card-text">
+                Proyecto desarrollado para <i>Localex</i>, un emprendimiento
+                nacional enfocado en revelar las bondades chilenas a
+                extranjeros, representadas en experiencias y vivencias locales
+                lideradas por propios chilenos.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <hr />
+              <li class="list-group-item">Creador - <i>Camilo Briceño</i></li>
+              <li class="list-group-item">Año - <i>2017</i></li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Revisa el proyecto!</a>
+              <a href="#" class="card-link">Compártelo!</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/img/panmostacho.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="branding">COMUNICACIÓN VISUAL</p>
+              <h5 class="card-title">PAN MOSTACHO</h5>
+              <p class="card-text">
+                Nuevo contenido gráfico para <i>Pan Mostacho</i>, emprendimiento
+                impulsado por una pareja de panaderos, quienes se definen como
+                «herederos de un pan de antaño, de sus abuelos, del pasado».
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <hr />
+              <li class="list-group-item">Creador - <i>Pierre Saure</i></li>
+              <li class="list-group-item">Año - <i>2019</i></li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Revisa el proyecto!</a>
+              <a href="#" class="card-link">Compártelo!</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/img/ceremonial.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="branding">BRANDING</p>
+              <h5 class="card-title">CEREMONIAL</h5>
+              <p class="card-text">
+                Ciclo de eventos culturales, basados en la activación de
+                espacios naturales a través de la música en vivo. Ceremonial
+                busca explorar los 5 sentidos de la naturaleza humana, mediante
+                un viaje musical.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <hr />
+              <li class="list-group-item">Creador - <i>Felipe Bril</i></li>
+              <li class="list-group-item">Año - <i>2018</i></li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Revisa el proyecto!</a>
+              <a href="#" class="card-link">Compártelo!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="design" class="container">
+      <h3 class="titulo text-align-center">DISEÑO EDITORIAL</h3>
+      <h6>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />sed do
+        eiusmod tempor incididunt labore et dolore magna aliqua.
+      </h6>
+      <div class="row row-cols-1 row-cols-md-2 editoriales">
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="assets/img/cienaga.png"
+              class="card-img-top"
+              alt="Revista Ciénaga"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-container="body"
+                data-toggle="popover"
+                data-placement="bottom"
+                data-content="Proyecto editorial independiente, en movimiento desde 2018."
+              >
+                Revista Ciénaga
+              </button>
+              <button type="button" class="btn-sm btn-dark">
+                Revísala aquí!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="assets/img/mochileras.png"
+              class="card-img-top"
+              alt="Mochileras"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Libro Mochileras</h5>
+              <button type="button" class="btn-sm btn-dark">
+                Revísalo aquí!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="assets/img/gem.png"
+              class="card-img-top"
+              alt="Revista GEM"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Revista GEM</h5>
+              <button type="button" class="btn-sm btn-dark">
+                Revísala aquí!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="assets/img/romeoyjulieta.png"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Libro Romeo y Julieta</h5>
+              <button type="button" class="btn-sm btn-dark">
+                Revisa el proyecto!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="photo" class="container-fluid">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+
+    <section id="contact">
+      <div
+        class="typeform-widget"
+        data-url="https://martaapel.typeform.com/to/vmxGzE"
+        style="width: 100%; height: 500px;"
+      ></div>
+      <script>
+        (function() {
+          var qs,
+            js,
+            q,
+            s,
+            d = document,
+            gi = d.getElementById,
+            ce = d.createElement,
+            gt = d.getElementsByTagName,
+            id = "typef_orm",
+            b = "https://embed.typeform.com/";
+          if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q);
+          }
+        })();
+      </script>
+      <div
+        style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"
+      >
+        powered by
+        <a
+          href="https://admin.typeform.com/signup?utm_campaign=vmxGzE&utm_source=typeform.com-01DZBYAJDVPZ2F28RK2V7617EW-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+          style="color: #999"
+          target="_blank"
+          >Typeform</a
+        >
+      </div>
+    </section>
+
+    <footer id="contact" class="container-fluid">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit..
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
