@@ -9,8 +9,8 @@ body {
   font-weight: 400;
 }
 
-nav .logo1 {
-  color: white;
+.navbar img {
+  width: 50px;
 }
 
 header {
