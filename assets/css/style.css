@@ -196,18 +196,104 @@ hr {
   margin: 20px;
 }
 
-#photo {
-  background-image: url("../img/fondo.jpg");
-  background-size: cover;
-  height: 900px;
+#photo h3 {
+  padding-top: 60px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-align: center;
+}
+#photo h6 {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#photo img {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+  width: 300px;
+  margin: 50px 0 30px 0;
+}
+.carousel-indicators li {
+  background-color: rgba(70, 70, 70, 0.25);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: #373a3c31;
+}
+.carousel-indicators .active {
+  background-color: #444;
+}
+.carousel-indicators {
+  padding: 220px;
+}
+
+.column {
+  padding: 0;
+  margin: 0;
+}
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#photo .container-fluid {
+  position: relative;
+  display: none;
+}
+
+.galeria {
+  margin: 0 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#galeria {
+  margin-bottom: 60px;
+}
+#galeria img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 footer {
-  height: 100px;
+  height: 140px;
   background: #373a3c;
 }
 footer p {
   color: white;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+}
+#contact a {
+  color: white;
+  font-size: 40px;
+  padding: 7px;
+}
+#contact .iconos {
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -232,4 +318,37 @@ footer p {
   .hero h1 {
     font-size: 65px;
   }
+}
+@media only screen and (max-width: 410px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 958px) {
+  .card-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #photo .carousel {
+    display: none !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about {
+  margin-top: -20px;
+  padding-top: 15px;
+}
+
+#project,
+#design,
+#photo,
+#contact {
+  margin-top: -10px;
+  padding-top: 25px;
 }
