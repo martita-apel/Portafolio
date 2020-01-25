@@ -287,12 +287,12 @@ footer p {
   font-family: "Barlow", sans-serif;
   font-weight: 300;
 }
-#contact a {
+#footer a {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   padding: 7px;
 }
-#contact .iconos {
+#footer .iconos {
   padding-top: 30px;
   text-align: center;
 }
@@ -311,6 +311,12 @@ footer p {
   #design button {
     font-size: 70%;
     letter-spacing: 1px;
+  }
+  #footer i {
+    font-size: 30px;
+  }
+  #footer .iconos {
+    padding-top: 13px;
   }
 }
 
